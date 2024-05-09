@@ -1,0 +1,125 @@
+#order_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.order_block {
+  max-width: 430px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  background: #fff;
+  -webkit-box-shadow: 0 0 25px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 0 25px 0 rgb(0 0 0 / 12%);
+  border: 3px dashed #eaeaea;
+  border-radius: 0;
+  padding: 10px;
+}
+
+.time_remains {
+  font-size: 1.1em;
+  color: red;
+  font-weight: bold;
+}
+
+label.discount {
+  font: bold 20px Arial !important;
+  background: transparent;
+  line-height: 24px!important;
+  max-width: 155px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 24px;
+}
+
+#validation-message {
+  margin-top: 6px;
+  font: 12px Arial !important;
+}
+
+.order_block, .order_block * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: .2s;
+  transition: .2s;
+  font-family: Arial, sans-serif !important;
+}
+
+.order_block img {
+  width: auto;
+  max-width: 200px;
+  max-height: 330px;
+  display: block;
+  margin: 0 auto;
+}
+
+.order_block h3 {
+  font: bold 17px Arial !important;
+  background: transparent;
+  margin-bottom: 16px;
+}
+
+.order_block p.price {
+  font-size: 22px !important;
+  line-height: 26px !important;
+  margin-bottom: 16px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  
+  margin-top: 16px;
+}
+
+#order_form input {
+  display: flex;
+  width: 100%;
+  max-width: 280px;
+  font: 16px Arial !important;
+}
+
+.input-group .iti{
+  width: 100%;
+  max-width: 280px;
+}
+.input-group {
+  width: 100%;
+  max-width: 280px;
+}
+
+.input-roulette {
+  padding-left: 5px;
+  height: 42px;
+  margin-bottom: 10px;
+}
+
+#order_form input {
+  padding: 0.375em 0.75em;
+  line-height: 1.5;
+  color: #111;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-transition: border-color .15s ease-in-out;
+  -o-transition: border-color .15s ease-in-out;
+  transition: border-color .15s ease-in-out;
+}
+
+.submit-roulette {
+  text-transform: uppercase;
+  padding: 10px 15px;
+  margin: 15px 0;
+  outline: 0;
+  border: 0;
+  margin-top: 5px;
+  border-radius: 5px;
+  box-shadow: 0 4px 3px #242120;
+  background: red;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background .3s;
+}
